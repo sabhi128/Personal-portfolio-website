@@ -72,6 +72,8 @@ const About = () => {
                             <a
                                 href="/resume.pdf"
                                 download="Ahmad_Sabhi_CV.pdf"
+                                target="_blank"
+                                rel="noreferrer"
                                 className="inline-flex items-center gap-2 px-8 py-3 rounded-full border border-accent/30 text-accent hover:bg-accent hover:text-white transition-all duration-300 font-medium group"
                             >
                                 <FaDownload className="group-hover:translate-y-1 transition-transform" />

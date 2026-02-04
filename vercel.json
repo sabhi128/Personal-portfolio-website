@@ -6,7 +6,11 @@
             "destination": "/api/index.js"
         },
         {
-            "source": "/((?!resume.pdf|favicon.svg).*)",
+            "source": "/resume.pdf",
+            "destination": "/resume.pdf"
+        },
+        {
+            "source": "/((?!api/|.*\\..+).*)",
             "destination": "/index.html"
         }
     ]
