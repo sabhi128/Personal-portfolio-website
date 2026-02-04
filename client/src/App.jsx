@@ -50,7 +50,7 @@ function App() {
                         rel="noreferrer"
                         className="transition-all duration-300 hover:scale-110"
                         style={{ color: 'var(--text-muted)' }}
-                        onMouseEnter={(e) => e.currentTarget.style.color = '#ffffff'}
+                        onMouseEnter={(e) => e.currentTarget.style.color = isDark ? '#ffffff' : '#000000'}
                         onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-muted)'}
                     >
                         <FaGithub size={22} />

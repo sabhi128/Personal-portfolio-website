@@ -308,8 +308,8 @@ const Projects = () => {
                                         href={project.github}
                                         target="_blank"
                                         rel="noreferrer"
-                                        whileHover={{ scale: 1.1 }}
-                                        className="text-muted hover:text-white transition-colors"
+                                        whileHover={{ scale: 1.1, color: isDark ? '#ffffff' : '#000000' }}
+                                        className="text-muted transition-colors"
                                         data-magnetic
                                     >
                                         <FaGithub size={24} />

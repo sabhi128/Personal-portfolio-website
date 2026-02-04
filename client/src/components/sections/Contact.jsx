@@ -72,7 +72,7 @@ const Contact = () => {
     }, []);
 
     const socials = [
-        { icon: FaGithub, label: 'GitHub', href: 'https://github.com/sabhi128', color: '#ffffff' },
+        { icon: FaGithub, label: 'GitHub', href: 'https://github.com/sabhi128', color: isDark ? '#ffffff' : '#000000' },
         { icon: FaLinkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/ahmad-sabhi-835304374', color: '#0077b5' },
         { icon: FaInstagram, label: 'Instagram', href: 'https://www.instagram.com/sabhi__ahmad', color: '#e4405f' },
     ];

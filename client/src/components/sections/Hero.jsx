@@ -194,7 +194,7 @@ const Hero = () => {
                         className="flex gap-5"
                     >
                         {[
-                            { icon: FaGithub, href: 'https://github.com/sabhi128', color: '#ffffff' },
+                            { icon: FaGithub, href: 'https://github.com/sabhi128', color: isDark ? '#ffffff' : '#000000' },
                             { icon: FaLinkedin, href: 'https://www.linkedin.com/in/ahmad-sabhi-835304374', color: '#0077b5' },
                             { icon: FaInstagram, href: 'https://www.instagram.com/sabhi__ahmad', color: '#e4405f' },
                         ].map((social, index) => (
