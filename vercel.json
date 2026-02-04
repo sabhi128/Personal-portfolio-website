@@ -6,7 +6,7 @@
             "destination": "/api/index.js"
         },
         {
-            "source": "/(.*)",
+            "source": "/((?!resume.pdf|favicon.svg).*)",
             "destination": "/index.html"
         }
     ]
