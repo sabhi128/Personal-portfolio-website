@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaDownload } from 'react-icons/fa';
-import ResumePDF from '../assets/Ahmad_Sabhi_CV.pdf';
 import ProfileImage from '../assets/6k6sxfwrb5rmy0cw3thsgk0z60 (1).png';
 
 const About = () => {
@@ -71,8 +70,8 @@ const About = () => {
 
                         <motion.div variants={itemVariants} className="pt-2">
                             <a
-                                href={ResumePDF}
-                                download="Ahmad_Sabhi_CV.pdf"
+                                href="/Ahmad_Sabhi_CV.pdf"
+                                download
                                 className="inline-flex items-center gap-2 px-8 py-3 rounded-full border border-accent/30 text-accent hover:bg-accent hover:text-white transition-all duration-300 font-medium group"
                             >
                                 <FaDownload className="group-hover:translate-y-1 transition-transform" />
