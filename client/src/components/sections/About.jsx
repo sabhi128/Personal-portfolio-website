@@ -240,7 +240,10 @@ const About = () => {
 
                         {/* Download Resume */}
                         <motion.a
-                            href="#"
+                            href="/resume.pdf"
+                            download="Ahmad_Sabhi_CV.pdf"
+                            target="_blank"
+                            rel="noreferrer"
                             whileHover={{ scale: 1.02, x: 5 }}
                             whileTap={{ scale: 0.98 }}
                             className="mt-10 inline-flex items-center gap-3 px-6 py-3 rounded-full transition-all group"
@@ -252,8 +255,8 @@ const About = () => {
                             data-magnetic
                         >
                             <span>Download Resume</span>
-                            <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            <svg className="w-4 h-4 group-hover:translate-y-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
                         </motion.a>
                     </div>
