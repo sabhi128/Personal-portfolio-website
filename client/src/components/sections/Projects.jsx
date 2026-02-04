@@ -67,7 +67,7 @@ const Projects = () => {
             image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80',
             techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Admin Dashboard'],
             github: 'https://github.com/sabhi128/forever-Full-stack-website',
-            live: '#',
+            live: 'https://forever-full-stack-website.vercel.app',
             color: '#f472b6',
         },
     ];
